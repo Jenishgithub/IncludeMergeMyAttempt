@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include layout="@layout/header" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:padding="20dp" >
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:text="YO mother fucker this is so fucking kind of ass hole that you are still infront of my face... His eyes his and i tell him everyday yeah i kno when i complement him its sad he wont i see everytime i ask him do i look ok when i see you was not aa face not a thing cause you&apos;re amazing just the way your are when y you smile the whole world stops cuse bo you&apos;re amazingjust the wsay you are" />
+        </ScrollView>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <include layout="@layout/footer" />
+    </LinearLayout>
+
+</RelativeLayout>
